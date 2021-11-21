@@ -1,6 +1,6 @@
 # React Job Portal
 
-### Decription - Job portal app a build using ReactJs, Javascript, TypeScript, HTML, Vanilla CSS. You can see screenshot attached in the `screenshot` folder.
+### Description  - Job portal app a build using ReactJs, Javascript, TypeScript, HTML, Vanilla CSS. You can see screenshot attached in the `screenshot` folder.
 <br />
 
 ### Running Steps to run the project.
