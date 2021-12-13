@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import Loader from '../ResuableComponent/Loader';
 import { GetRequest } from '../Utitiles/Network/index';
 import { Link } from 'react-router-dom';
@@ -18,6 +18,8 @@ const ProfileList = () => {
        * step6- Filter array
        * step5-update the state
        */
+
+
 
     const _getUserProfile = async () => {
         let selectProfileData = JSON.parse(localStorage.getItem('selectList') || '[]')

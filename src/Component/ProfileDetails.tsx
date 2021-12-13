@@ -1,4 +1,3 @@
-
 import { useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
 
@@ -58,7 +57,7 @@ const ProfileDetails = () => {
                     </h2>
                     <div className='profile-actions'>
                         <Link to={`/`}                      >
-                            <button className='link-profile' onClick={(e) => _handleSelectProfile(items)}>Select</button>
+                            <button className='link-profile' onClick={() => _handleSelectProfile(items)}>Select</button>
                         </Link>
                         <Link to={`/`}                       >
                             <button className='link-profile danger mx-4' onClick={() => _handleRejectProfile(items)}>Reject</button>
@@ -67,11 +66,6 @@ const ProfileDetails = () => {
                             <button className='link-profile warning'> Go Back</button>
                         </Link>
                     </div>
-
-                    <div className='mt-4'>
-
-                    </div>
-
                 </div>
             </div >
         </>

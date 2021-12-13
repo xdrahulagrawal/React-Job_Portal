@@ -52,11 +52,6 @@ const RejectCandidate = () => {
                     )
                 })}
             </div>
-
-
-
-
-
         </>
     )
 }

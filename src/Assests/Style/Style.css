@@ -137,17 +137,18 @@ h2 {
 
 /**Navbar*/
 
-.container-ul {
-    list-style: none;
-    display: flex;
-    background-color: #17a86c;
-    height: 60px;
-    margin-top: -5px;
-}
-
+/* 
 .container-li {
     margin-top: 15px;
-}
+} */
+
+
+
+
+
+
+
+
 
 .navLink {
     text-decoration: none;
@@ -155,4 +156,54 @@ h2 {
     font-size: 20px;
     font-weight: 600;
     color: wheat;
+}
+
+.container-ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    display: flex;
+    background-color: #17a86c;
+    height: 60px;
+    margin-top: -5px;
+    align-items: center;
+}
+
+.burger {
+    margin: 20px 20px;
+    color: wheat;
+    font-size: 35px;
+    cursor: pointer;
+    display: none;
+    /* display: block; */
+}
+
+
+@media only screen and (max-width:700px) {
+    .burger {
+        display: block;
+    }
+
+    .container-ul {
+        display: none;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .show {
+        display: flex;
+        flex-direction: column;
+        background-color: #17a86c;
+        height: auto;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .container-li {
+        margin-top: 10px;
+    }
 }

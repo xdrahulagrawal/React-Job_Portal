@@ -6,6 +6,7 @@ const SelectCandidate = () => {
     const [selectProfile, setSelectProfile] = useState([])
 
 
+
     /** @description _getSelectCandidateProfile
      * Step1: Get the localstorage data convert to obj
      * Step2:Handle falsy condition
